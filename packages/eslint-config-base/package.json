@@ -1,0 +1,15 @@
+{
+  "name": "@aerian/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matt Kane <matt.kane@aerian.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint-config-prettier": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
