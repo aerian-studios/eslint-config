@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@aerian/eslint-config-react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@aerian/eslint-config-react/-/eslint-config-react-1.0.0.tgz#6f07e1e4b85c7d5ed2f42c064eb09244f7bce465"
+  integrity sha512-odw0K+rSlycC8A67yw01n/uvoCkTts5fK2VOXECReiZOe+evw4SElihfs/vaENW0K3I78bfZVurIVaJ+Ckj3pQ==
+  dependencies:
+    "@aerian/eslint-config" "^1.0.0"
+
 "@aerian/eslint-config@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@aerian/eslint-config/-/eslint-config-1.0.0.tgz#979dab57998482d99e2d9b0f31b4c01409306eda"

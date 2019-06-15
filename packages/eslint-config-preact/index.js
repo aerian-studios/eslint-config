@@ -1,14 +1,8 @@
 module.exports = {
-    extends: ["plugin:react/recommended", "@aerian/eslint-config"],
-    plugins: ["react-hooks"],
-    parserOptions: {
-        ecmaFeatures: {
-            jsx: true
+    extends: ["@aerian/eslint-config-react"],
+    settings: {
+        react: {
+            pragma: "h"
         }
-    },
-    rules: {
-        "react/prop-types": "off",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn"
     }
 };
