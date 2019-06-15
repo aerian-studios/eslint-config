@@ -1,0 +1,10 @@
+{
+  "name": "@aerian/eslint-config-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matt Kane <matt.kane@aerian.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aerian/eslint-config": "^1.0.0"
+  }
+}
