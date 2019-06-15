@@ -6,5 +6,6 @@
     "license": "MIT",
     "dependencies": {
         "@aerian/eslint-config-react": "^1.0.0"
-    }
+    },
+    "repository": "git@github.com:aerian-studios/eslint-config-preact.git"
 }
