@@ -1,11 +1,11 @@
 {
     "name": "@aerian/eslint-config-preact",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "main": "index.js",
     "author": "Matt Kane <matt.kane@aerian.com>",
     "license": "MIT",
     "dependencies": {
-        "@aerian/eslint-config-react": "^1.0.0"
+        "@aerian/eslint-config-react": "^1.0.3"
     },
     "repository": "git@github.com:aerian-studios/eslint-config-preact.git",
     "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
