@@ -2,9 +2,9 @@
 
 This is a sharable ESLint config for JavaScript.
 
-If you're using React, try `@aerian/eslint-config-react` instead. If you're using
-Preact, try `@aerian/eslint-config-preact`. If you're using TypeScript, add
-`@aerian/eslint-config-typescript` too.
+If you're using React, try `@aerian/eslint-config-react` instead. If you're
+using Preact, try `@aerian/eslint-config-preact`. If you're using TypeScript,
+add `@aerian/eslint-config-typescript` too.
 
 To install, run:
 
@@ -13,14 +13,14 @@ To install, run:
 npm i -D eslint prettier @aerian/eslint-config
 
 #yarn
-yarn add --dev eslint prettier @aerian/eslint-config
+yarn add --D eslint prettier @aerian/eslint-config
 ```
 
 To use it, create the following .eslintrc.json:
 
 ```json
 {
-  "extends": ["@aerian/eslint-config"]
+    "extends": ["@aerian/eslint-config"]
 }
 ```
 
