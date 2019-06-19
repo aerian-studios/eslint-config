@@ -1,0 +1,24 @@
+{
+  "name": "@aerian/eslint-config-typescript",
+  "version": "0.0.0",
+  "author": "Matt Kane <matt.kane@aerian.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@aerian/eslint-config": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}

@@ -1,7 +1,7 @@
 # @aerian/eslint-config-react
 
-This is a sharable ESLint config for React. It supports TypeScript and
-JavaScript.
+This is a sharable ESLint config for React. If you're using TypeScript, add
+`@aerian/eslint-config-typescript` too.
 
 If you're not using React, try `@aerian/eslint-config` instead. If you're using
 Preact, try `@aerian/eslint-config-preact`
@@ -21,6 +21,17 @@ To use it, create the following .eslintrc.json:
 ```json
 {
     "extends": ["@aerian/eslint-config-react"]
+}
+```
+
+..or if you're using TypeScript:
+
+```json
+{
+    "extends": [
+        "@aerian/eslint-config-react",
+        "@aerian/eslint-config-typescript"
+    ]
 }
 ```
 
