@@ -13,5 +13,7 @@
   "devDependencies": {
     "eslint": "^5.16.0"
   },
-  "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
+  "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b",
+  "description": "Aerian's ESLint config",
+  "repository": "https://github.com/aerian-studios/eslint-config"
 }

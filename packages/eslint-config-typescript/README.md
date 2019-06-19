@@ -12,7 +12,7 @@ To install, run:
 npm i -D eslint prettier @aerian/eslint-config-typescript
 
 #yarn
-yarn add --D eslint prettier @aerian/eslint-config-typescript
+yarn add -D  eslint prettier @aerian/eslint-config-typescript
 ```
 
 To use it, create the following .eslintrc.json:

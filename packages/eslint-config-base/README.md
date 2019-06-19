@@ -13,7 +13,7 @@ To install, run:
 npm i -D eslint prettier @aerian/eslint-config
 
 #yarn
-yarn add --D eslint prettier @aerian/eslint-config
+yarn add -D  eslint prettier @aerian/eslint-config
 ```
 
 To use it, create the following .eslintrc.json:
