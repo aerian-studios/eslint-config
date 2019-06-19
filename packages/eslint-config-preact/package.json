@@ -7,6 +7,9 @@
     "dependencies": {
         "@aerian/eslint-config-react": "^1.0.3"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": "git@github.com:aerian-studios/eslint-config-preact.git",
     "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
 }

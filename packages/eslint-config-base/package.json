@@ -1,19 +1,24 @@
 {
-  "name": "@aerian/eslint-config",
-  "version": "1.0.3",
-  "main": "index.js",
-  "author": "Matt Kane <matt.kane@aerian.com>",
-  "license": "MIT",
-  "dependencies": {
-    "eslint-config-es": "^3.0.0",
-    "eslint-config-prettier": "^5.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0"
-  },
-  "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b",
-  "description": "Aerian's ESLint config",
-  "repository": "https://github.com/aerian-studios/eslint-config"
+    "name": "@aerian/eslint-config",
+    "version": "1.0.3",
+    "main": "index.js",
+    "author": "Matt Kane <matt.kane@aerian.com>",
+    "license": "MIT",
+    "dependencies": {
+        "babel-eslint": "^10.0.2",
+        "eslint-config-es": "^3.0.0",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-jest": "^22.6.4",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0"
+    },
+    "peerDependencies": {
+        "eslint": "*"
+    },
+    "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b",
+    "description": "Aerian's ESLint config",
+    "repository": "https://github.com/aerian-studios/eslint-config"
 }

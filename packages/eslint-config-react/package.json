@@ -1,14 +1,17 @@
 {
-  "name": "@aerian/eslint-config-react",
-  "version": "1.0.3",
-  "main": "index.js",
-  "author": "Matt Kane <matt.kane@aerian.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@aerian/eslint-config": "^1.0.3",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0"
-  },
-  "repository": "https://github.com/aerian-studios/eslint-confighttps://github.com/aerian-studios/eslint-config",
-  "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
+    "name": "@aerian/eslint-config-react",
+    "version": "1.0.3",
+    "main": "index.js",
+    "author": "Matt Kane <matt.kane@aerian.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@aerian/eslint-config": "^1.0.3",
+        "eslint-plugin-react": "^7.13.0",
+        "eslint-plugin-react-hooks": "^1.6.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/aerian-studios/eslint-confighttps://github.com/aerian-studios/eslint-config",
+    "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
 }
