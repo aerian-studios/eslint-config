@@ -1,14 +1,18 @@
 # Aerian ESLint config
 
-This monorepo includes several ESLint configs:
+This monorepo includes several opinionated ESLint configs:
 
--   **@aerian/eslint-config**: The base JavaScript config
+-   **@aerian/eslint-config**: The base JavaScript config. The rules are similar
+    to those in create-react-app (minus the React-specific stuff, which is
+    included below), which in turn is based on Airbnb rules. Formatting is all
+    handled by Prettier.
 -   **@aerian/eslint-config-react**: A JavaScript config with support for React.
     Extends @aerian/eslint-config, so there's no need to include both.
--   **@aerian/eslint-config-preact**: As above, but for Preact instead of React.
--   **@aerian/eslint-config-typescript**: Adds support for TypeScript. Extends
-    @aerian/eslint-config, and can be installed alongside the -react or -preact
-    configs to add TypeScript support.
+-   **@aerian/eslint-config-preact**: Identical to the above, but for Preact
+    instead of React.
+-   **@aerian/eslint-config-typescript**: Adds support for TypeScript. Can be
+    installed alongside either the base config or -react or -preact configs to
+    add TypeScript support.
 
 To install the packages, run:
 
@@ -50,3 +54,9 @@ To use the packages, create an .eslintrc.json like this:
 The base formatting uses Prettier, which parses and reformats your code. It runs
 this through ESLint, so you can run use `eslint . --fix` to apply Prettier
 formatting as well as ESLint rules.
+
+### Development
+
+This is a monorepo managed by Lerna. To publish, run `lerna publish`. New rules
+should mean a major version change, as they're breaking changes for existing
+projects.
