@@ -1,6 +1,6 @@
 {
   "name": "@aerian/eslint-config-typescript",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Matt Kane <matt.kane@aerian.com>",
   "license": "MIT",
   "main": "index.js",
