@@ -1,7 +1,7 @@
 const restrictedGlobals = require("confusing-browser-globals");
 
 module.exports = {
-    extends: ["plugin:import/react", "plugin:prettier/recommended"],
+    extends: ["plugin:prettier/recommended"],
     plugins: ["jest", "import", "prettier"],
     parser: "babel-eslint",
     env: {
@@ -138,7 +138,6 @@ module.exports = {
         "prefer-spread": "warn",
         "prefer-template": "warn",
         "no-whitespace-before-property": "warn",
-        "react-hooks/exhaustive-deps": "warn",
         "require-yield": "warn",
         "rest-spread-spacing": ["warn", "never"],
         strict: ["warn", "never"],
