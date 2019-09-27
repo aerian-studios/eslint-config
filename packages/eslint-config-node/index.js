@@ -15,6 +15,7 @@ module.exports = {
     },
 
     rules: {
+        "import/no-commonjs": "off",
         "node/no-callback-literal": "error",
         "node/exports-style": ["error", "module.exports"],
         "node/file-extension-in-import": [
