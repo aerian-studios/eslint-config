@@ -185,6 +185,8 @@ module.exports = {
                 destructuring: "all",
                 ignoreReadBeforeAssign: false
             }
-        ]
+        ],
+        "consistent-return": ["warn"],
+        complexity: ["warn", "3"]
     }
 };
