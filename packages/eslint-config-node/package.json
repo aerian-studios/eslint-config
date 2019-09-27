@@ -1,5 +1,5 @@
 {
-    "name": "eslint-config-node",
+    "name": "@aerian/eslint-config-node",
     "version": "3.1.1",
     "description": "Aerian Studios' opionated node formatting and best practices",
     "main": "index.js",
@@ -24,5 +24,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "45602a0df1b30201476d0e8b758f7c38d46f8717"
+    "gitHead": "e0218d2749320c293323bf71028437790385299b"
 }
