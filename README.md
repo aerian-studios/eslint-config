@@ -13,6 +13,8 @@ This monorepo includes several opinionated ESLint configs:
 -   **@aerian/eslint-config-typescript**: Adds support for TypeScript. Can be
     installed alongside either the base config or -react or -preact configs to
     add TypeScript support.
+-   **@aerian/eslint-config-node**: Adds support for node. Can be installed
+    alongside the other configs.
 
 To install the packages, run:
 
