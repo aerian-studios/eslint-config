@@ -187,6 +187,6 @@ module.exports = {
             }
         ],
         "consistent-return": ["warn"],
-        complexity: ["warn", 3]
+        complexity: ["warn", 5]
     }
 };
