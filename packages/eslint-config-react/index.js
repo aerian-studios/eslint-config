@@ -1,5 +1,6 @@
 module.exports = {
     extends: [
+        "plugin:import/react",
         "plugin:react/recommended",
         "@aerian/eslint-config",
         "prettier/react"

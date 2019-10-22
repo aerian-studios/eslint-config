@@ -5,7 +5,8 @@ This is a sharable ESLint config for TypeScript.
 This isn't meant to be used on its own. If you're using plain TypeScript add
 `@aerian/eslint-config`. Alternatively, if you're using React, use
 `@aerian/eslint-config-react`. If you're using Preact, use
-`@aerian/eslint-config-preact`.
+`@aerian/eslint-config-preact`. If you need node, use
+`@aerian/eslint-config-node`
 
 To install, run:
 

@@ -4,7 +4,8 @@ This is a sharable ESLint config for JavaScript.
 
 If you're using React, try `@aerian/eslint-config-react` instead. If you're
 using Preact, try `@aerian/eslint-config-preact`. If you're using TypeScript,
-add `@aerian/eslint-config-typescript` too.
+add `@aerian/eslint-config-typescript` too. If you need node, use
+`@aerian/eslint-config-node`
 
 To install, run:
 
