@@ -161,8 +161,6 @@ module.exports = {
         ],
         "getter-return": "warn",
 
-        "sort-imports": 0,
-
         "import/no-commonjs": "error",
         "import/no-amd": "error",
         "import/no-duplicates": "error",
@@ -170,7 +168,6 @@ module.exports = {
         "import/no-extraneous-dependencies": "error",
         "import/no-mutable-exports": "error",
         "no-unneeded-ternary": ["warn", { defaultAssignment: false }],
-        "no-array-constructor": "off",
         "prefer-object-spread": "warn",
         "prefer-arrow-callback": [
             "error",

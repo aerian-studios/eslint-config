@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-"@aerian/eslint-config@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@aerian/eslint-config/-/eslint-config-3.0.1.tgz#3df4a120d59f7b993fdbab8e70b6578e1fed4f1d"
-  integrity sha512-Sb/0PyKMYD1SsjqW3F03fuBodf8UT2EEplkrvHXuzbmU70+Lj6o8hJovg2rN12JRn6zuBs5GNfAQ8LlJ2u0kdg==
+"@aerian/eslint-config@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@aerian/eslint-config/-/eslint-config-5.0.1.tgz#5dcf21cb7377c36dc7849fcd0ba8d540b22db9f7"
+  integrity sha512-S0FSCxYCd0n0sy0p6AK7PZwi1Q1VxVWM6Nck5k8F8Z/w5JflXHSD+r5oPUiWhKmhevL82b6fMMJ7dtXM1piwdQ==
   dependencies:
     babel-eslint "^10.0.2"
     confusing-browser-globals "^1.0.7"
-    eslint-config-prettier "^5.0.0"
+    eslint-config-prettier "^6.3.0"
     eslint-plugin-import "^2.17.3"
     eslint-plugin-jest "^22.6.4"
     eslint-plugin-prettier "^3.1.0"
@@ -266,10 +266,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-5.1.0.tgz#bf29442e7c818236a77acfe2241ec991299f9bf1"
-  integrity sha512-+tpiaLm3wl6fPW5nq0dDyVowQM0FT61lAdWZ+sDWgk6kKzgbOnCDwlcbwI38cyCBhq+Z3ret5Iofp6/gZpO0zw==
+eslint-config-prettier@^6.3.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.4.0.tgz#0a04f147e31d33c6c161b2dd0971418ac52d0477"
+  integrity sha512-YrKucoFdc7SEko5Sxe4r6ixqXPDP1tunGw91POeZTTRKItf/AMFYt/YLEQtZMkR2LVpAVhcAcZgcWpm1oGPW7w==
   dependencies:
     get-stdin "^6.0.0"
 

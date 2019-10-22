@@ -12,15 +12,15 @@
   },
   "dependencies": {
     "@aerian/eslint-config": "^5.0.1",
-    "@typescript-eslint/eslint-plugin": "^1.10.2",
-    "@typescript-eslint/parser": "^1.10.2",
-    "eslint-plugin-import": "^2.18.0"
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint-plugin-import": "^2.18.2"
   },
   "peerDependencies": {
     "typescript": "*"
   },
   "devDependencies": {
-    "typescript": "^3.5.2"
+    "typescript": "^3.6.4"
   },
   "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
 }
