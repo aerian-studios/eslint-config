@@ -51,7 +51,10 @@ module.exports = {
                 "@typescript-eslint/no-var-requires": "error",
                 "@typescript-eslint/prefer-interface": "error",
                 "@typescript-eslint/prefer-namespace-keyword": "error",
-                "@typescript-eslint/array-type": ["warn", "array-simple"],
+                "@typescript-eslint/array-type": [
+                    "warn",
+                    { default: "array-simple" }
+                ],
                 "no-useless-constructor": "off",
                 "@typescript-eslint/no-useless-constructor": "warn",
                 "@typescript-eslint/ban-types": [
