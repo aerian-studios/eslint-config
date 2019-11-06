@@ -124,15 +124,6 @@ module.exports = {
                 ignoreExport: false
             }
         ],
-        "sort-imports": [
-            "warn",
-            {
-                ignoreCase: true,
-                ignoreDeclarationSort: false,
-                ignoreMemberSort: false,
-                memberSyntaxSortOrder: ["single", "multiple", "all", "none"]
-            }
-        ],
         "no-with": "warn",
         "prefer-rest-params": "warn",
         "prefer-spread": "warn",
