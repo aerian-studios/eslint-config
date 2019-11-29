@@ -7,17 +7,18 @@
     "dependencies": {
         "babel-eslint": "^10.0.3",
         "confusing-browser-globals": "^1.0.9",
-        "eslint-config-prettier": "^6.4.0",
+        "eslint-config-prettier": "^6.7.0",
         "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jest": "^22.20.0",
+        "eslint-plugin-jest": "^22.21.0",
         "eslint-plugin-prettier": "^3.1.1",
-        "prettier": "^1.18.2"
+        "prettier": "^1.19.1"
     },
     "devDependencies": {
-        "eslint": "^6.5.1"
+        "eslint": "^6.7.1"
     },
     "peerDependencies": {
-        "eslint": "*"
+        "eslint": "*",
+        "prettier": "*"
     },
     "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b",
     "description": "Aerian's ESLint config",
