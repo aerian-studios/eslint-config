@@ -1,9 +1,8 @@
 module.exports = {
-    extends: ["plugin:prettier/recommended", "plugin:node/recommended"],
+    extends: ["@aerian/eslint-config", "plugin:node/recommended"],
     env: {
         es6: true,
-        node: true,
-        "jest/globals": true
+        node: true
     },
 
     parserOptions: {
