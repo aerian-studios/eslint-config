@@ -48,7 +48,7 @@ module.exports = {
         "jsx-a11y/scope": "warn"
     },
     settings: {
-        "import/extensions": [".js", ".jsx"],
+        "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
         react: {
             version: "detect"
         }
