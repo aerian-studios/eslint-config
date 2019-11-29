@@ -19,6 +19,7 @@ module.exports = {
     },
 
     rules: {
+        "prettier/prettier": ["error", { tabWidth: 4, proseWrap: "always" }],
         "no-var": "error",
         "array-callback-return": "warn",
         "default-case": ["warn", { commentPattern: "^no default$" }],
