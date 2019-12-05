@@ -16,7 +16,10 @@ module.exports = {
         "react/prefer-stateless-function": "warn",
         "react/jsx-key": "warn",
         "react/jsx-curly-spacing": "off",
-        "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+        "react/jsx-filename-extension": [
+            1,
+            { extensions: [".js", ".jsx", ".ts", ".tsx"] }
+        ],
         "react/prop-types": "off",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
