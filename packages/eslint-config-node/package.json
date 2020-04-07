@@ -16,7 +16,7 @@
     "license": "MIT",
     "dependencies": {
         "@aerian/eslint-config": "^7.0.0",
-        "eslint-plugin-node": "^10.0.0"
+        "eslint-plugin-node": "^11.1.0"
     },
     "engines": {
         "node": ">=10.0.0"
