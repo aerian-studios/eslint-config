@@ -1,6 +1,6 @@
 {
     "name": "@aerian/eslint-config",
-    "version": "7.0.0",
+    "version": "8.0.0",
     "main": "index.js",
     "author": "Matt Kane <matt.kane@aerian.com>",
     "license": "MIT",

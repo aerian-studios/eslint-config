@@ -1,11 +1,11 @@
 {
     "name": "@aerian/eslint-config-react",
-    "version": "7.0.1",
+    "version": "8.0.0",
     "main": "index.js",
     "author": "Matt Kane <matt.kane@aerian.com>",
     "license": "MIT",
     "dependencies": {
-        "@aerian/eslint-config": "^7.0.0",
+        "@aerian/eslint-config": "^8.0.0",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.19.0",
         "eslint-plugin-react-hooks": "^3.0.0"
