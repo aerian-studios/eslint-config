@@ -5,16 +5,16 @@
     "author": "Matt Kane <matt.kane@aerian.com>",
     "license": "MIT",
     "dependencies": {
-        "babel-eslint": "^10.0.3",
+        "babel-eslint": "^10.1.0",
         "confusing-browser-globals": "^1.0.9",
-        "eslint-config-prettier": "^6.7.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jest": "^22.21.0",
-        "eslint-plugin-prettier": "^3.1.1",
-        "prettier": "^1.19.1"
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jest": "^23.8.2",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^2.0.4"
     },
     "devDependencies": {
-        "eslint": "^6.7.1"
+        "eslint": "^6.8.0"
     },
     "peerDependencies": {
         "eslint": "*",
