@@ -1,26 +1,26 @@
 {
-  "name": "@aerian/eslint-config-typescript",
-  "version": "7.0.0",
-  "author": "Matt Kane <matt.kane@aerian.com>",
-  "license": "MIT",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@aerian/eslint-config": "^7.0.0",
-    "@typescript-eslint/eslint-plugin": "^2.9.0",
-    "@typescript-eslint/parser": "^2.9.0",
-    "eslint-plugin-import": "^2.18.2"
-  },
-  "peerDependencies": {
-    "typescript": "*"
-  },
-  "devDependencies": {
-    "typescript": "^3.7.2"
-  },
-  "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
+    "name": "@aerian/eslint-config-typescript",
+    "version": "7.0.0",
+    "author": "Matt Kane <matt.kane@aerian.com>",
+    "license": "MIT",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "dependencies": {
+        "@aerian/eslint-config": "^7.0.0",
+        "@typescript-eslint/eslint-plugin": "^2.27.0",
+        "@typescript-eslint/parser": "^2.27.0",
+        "eslint-plugin-import": "^2.20.2"
+    },
+    "peerDependencies": {
+        "typescript": "*"
+    },
+    "devDependencies": {
+        "typescript": "^3.8.3"
+    },
+    "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
 }
