@@ -68,15 +68,19 @@ the base `@aerian/eslint-config` (and, if you are using TypeScript,
 
 ### Development
 
-This is a monorepo managed by Lerna.
+This is a monorepo managed by [Lerna](https://lerna.js.org/).
 
-You will need to have lerna as a global, `yarn add global lerna`.
+You will need to have lerna as a global, `yarn add global lerna` or use `npx` to
+prefix all the lerna commands
 
 Once you have made changes:
 
+1. Commit with meaningful commit - ideally using
+   [conventional commit](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#summary)
+   messages.
 1. don't push your changes.
-2. make sure that you are logged in to npm.
-3. Then run, `lerna publish`. This will take you through a wizard for managing
+1. make sure that you are logged in to npm.
+1. Then run, `lerna publish`. This will take you through a wizard for managing
    the realease to npm.
 
 Versioning should follow semver, but make sure that **new rules** are treated as
