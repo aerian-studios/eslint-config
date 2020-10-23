@@ -1,0 +1,10 @@
+{
+  "name": "@aerian/stylelint-config-base",
+  "version": "10.0.0",
+  "description": "Aerian's CSS config",
+  "main": "index.js",
+  "repository": "\"https://github.com/aerian-studios/eslint-config\"",
+  "author": "Śūnya<info@aerian.com>",
+  "license": "MIT",
+  "private": false
+}

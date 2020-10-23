@@ -2,7 +2,7 @@
     "name": "@aerian/eslint-config-react",
     "version": "10.0.0",
     "main": "index.js",
-    "author": "Matt Kane <matt.kane@aerian.com>",
+    "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
     "dependencies": {
         "@aerian/eslint-config": "^10.0.0",
