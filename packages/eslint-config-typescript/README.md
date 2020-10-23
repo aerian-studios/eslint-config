@@ -36,13 +36,14 @@ something like the following to your user or workspace settings:
 ```json
 {
     "editor.formatOnSave": true,
-    "eslint.enable": true,
-    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        { "language": "typescript", "autoFix": true },
-        { "language": "typescriptreact", "autoFix": true }
+        "typescript",
+        "typescriptreact"
     ],
     "[javascript]": {
         "editor.formatOnSave": false
@@ -56,7 +57,7 @@ something like the following to your user or workspace settings:
     "[typescriptreact]": {
         "editor.formatOnSave": false
     },
-    "eslint.provideLintTask": true,
+    "eslint.lintTask.enable": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
