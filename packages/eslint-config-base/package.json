@@ -1,20 +1,20 @@
 {
     "name": "@aerian/eslint-config",
-    "version": "9.1.0",
+    "version": "10.0.0",
     "main": "index.js",
     "author": "Matt Kane <matt.kane@aerian.com>",
     "license": "MIT",
     "dependencies": {
         "babel-eslint": "^10.1.0",
-        "confusing-browser-globals": "^1.0.9",
+        "confusing-browser-globals": "^1.0.10",
         "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-import": "^2.20.2",
-        "eslint-plugin-jest": "^23.20.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jest": "^24.1.0",
         "eslint-plugin-prettier": "^3.1.4",
-        "prettier": "^2.0.5"
+        "prettier": "^2.1.2"
     },
     "devDependencies": {
-        "eslint": "^6.8.0"
+        "eslint": "^7.11.0"
     },
     "peerDependencies": {
         "eslint": "*",
