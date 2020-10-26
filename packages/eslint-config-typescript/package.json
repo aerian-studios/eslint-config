@@ -1,6 +1,6 @@
 {
     "name": "@aerian/eslint-config-typescript",
-    "version": "10.1.0",
+    "version": "10.2.0",
     "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,7 +11,7 @@
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "dependencies": {
-        "@aerian/eslint-config": "^10.1.0",
+        "@aerian/eslint-config": "^10.2.0",
         "@typescript-eslint/eslint-plugin": "^4.5.0",
         "@typescript-eslint/parser": "^4.5.0",
         "eslint-plugin-import": "^2.22.1"
