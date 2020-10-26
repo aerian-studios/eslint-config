@@ -108,9 +108,9 @@ module.exports = {
         "no-use-before-define": [
             "warn",
             {
-                functions: false,
-                classes: false,
-                variables: false
+                functions: true,
+                classes: true,
+                variables: true
             }
         ],
         "no-useless-computed-key": "warn",
