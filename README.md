@@ -15,6 +15,8 @@ This monorepo includes several opinionated ESLint configs:
     add TypeScript support.
 -   **@aerian/eslint-config-node**: Adds support for node. Can be installed
     alongside the other configs.
+-   **@aerian/stylelint-config-base**: Adds support for CSS and SCSS linting
+    (currently a WIP).
 
 To install the packages, run:
 
@@ -71,15 +73,19 @@ the base `@aerian/eslint-config` (and, if you are using TypeScript,
 This is a monorepo managed by [Lerna](https://lerna.js.org/).
 
 You will need to have lerna as a global, `yarn add global lerna` or use `npx` to
-prefix all the lerna commands
+prefix all the lerna commands.
 
-Once you have made changes:
-
+1. Please make a new git branch for your changes
 1. Commit with meaningful commit - ideally using
    [conventional commit](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#summary)
    messages.
-1. don't push your changes.
-1. make sure that you are logged in to npm.
+1. Submit completed changes for review to one of the Aerian team.
+
+### To publish
+
+1. Merge code changes into master
+1. Check out master
+1. Make sure that you are logged in to npm.
 1. Then run, `lerna publish`. This will take you through a wizard for managing
    the realease to npm.
 
