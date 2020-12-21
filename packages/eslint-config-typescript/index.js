@@ -25,10 +25,6 @@ module.exports = {
                 "no-magic-numbers": "off",
                 "@typescript-eslint/adjacent-overload-signatures": "error",
                 "@typescript-eslint/await-thenable": "warn",
-                "@typescript-eslint/camelcase": [
-                    "warn",
-                    { properties: "never" },
-                ],
                 "@typescript-eslint/explicit-member-accessibility": "warn",
                 indent: "off",
                 "@typescript-eslint/consistent-type-assertions": [
