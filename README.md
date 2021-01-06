@@ -59,7 +59,7 @@ The base formatting uses Prettier, which parses and reformats your code. It runs
 this through ESLint, so you can run use `eslint . --fix` to apply Prettier
 formatting as well as ESLint rules.
 
-### Transpiled (Typescript/Bael) node scripts
+### Transpiled (Typescript/Babel) node scripts
 
 It is possible to use standard ES syntaxes with node scripts if you are
 transpiling your code... ESModules coming to node soon!
