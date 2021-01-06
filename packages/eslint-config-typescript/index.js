@@ -2,6 +2,7 @@ module.exports = {
     extends: [
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "eslint-config-prettier",
         "eslint-config-prettier/@typescript-eslint",
     ],
@@ -11,22 +12,23 @@ module.exports = {
             files: ["**/*.ts", "**/*.tsx"],
             parser: "@typescript-eslint/parser",
             parserOptions: {
+                ecmaVersion: 2020,
                 project: "./tsconfig.json",
-                ecmaVersion: 2018,
                 sourceType: "module",
                 ecmaFeatures: {
                     jsx: true,
                 },
             },
             rules: {
+                //https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/FAQ.md#i-am-using-a-rule-from-eslint-core-and-it-doesnt-work-correctly-with-typescript-code
                 "default-case": "off",
                 "no-dupe-class-members": "off",
-                "no-undef": "off",
                 "no-magic-numbers": "off",
                 "@typescript-eslint/adjacent-overload-signatures": "error",
                 "@typescript-eslint/await-thenable": "warn",
                 "@typescript-eslint/explicit-member-accessibility": "warn",
                 indent: "off",
+                complexity: ["warn", 8],
                 "@typescript-eslint/consistent-type-assertions": [
                     "error",
                     {
@@ -58,6 +60,15 @@ module.exports = {
                     },
                 ],
                 "import/no-commonjs": "off",
+                "no-use-before-define": "off",
+                "no-use-before-define": [
+                    "warn",
+                    {
+                        functions: true,
+                        classes: true,
+                        variables: true,
+                    },
+                ],
                 "@typescript-eslint/no-var-requires": "error",
                 "@typescript-eslint/prefer-namespace-keyword": "error",
                 "@typescript-eslint/array-type": [
@@ -82,6 +93,7 @@ module.exports = {
                         },
                     },
                 ],
+                "@typescript-eslint/prefer-regexp-exec": "warn",
             },
         },
     ],

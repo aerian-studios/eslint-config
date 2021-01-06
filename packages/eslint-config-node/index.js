@@ -7,7 +7,7 @@ module.exports = {
 
     parserOptions: {
         sourceType: "script",
-        ecmaVersion: 2019,
+        ecmaVersion: 2020,
         ecmaFeatures: {
             impliedStrict: true,
         },
@@ -16,7 +16,7 @@ module.exports = {
     rules: {
         "import/no-commonjs": "off",
         "node/no-callback-literal": "error",
-        "node/exports-style": ["error", "module.exports"],
+        "node/exports-style": ["warn", "module.exports"],
         "node/file-extension-in-import": [
             "warn",
             "never",
@@ -25,12 +25,12 @@ module.exports = {
                 ".json": "always",
             },
         ],
-        "node/prefer-global/buffer": ["error", "always"],
-        "node/prefer-global/console": ["error", "always"],
-        "node/prefer-global/process": ["error", "always"],
-        "node/prefer-global/url-search-params": ["error", "always"],
-        "node/prefer-global/url": ["error", "always"],
-        "node/prefer-promises/dns": "error",
-        "node/prefer-promises/fs": "error",
+        "node/prefer-global/buffer": ["warn", "always"],
+        "node/prefer-global/console": ["warn", "always"],
+        "node/prefer-global/process": ["warn", "always"],
+        "node/prefer-global/url-search-params": ["warn", "always"],
+        "node/prefer-global/url": ["warn", "always"],
+        "node/prefer-promises/dns": "warn",
+        "node/prefer-promises/fs": "warn",
     },
 };

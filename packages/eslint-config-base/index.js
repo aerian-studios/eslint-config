@@ -10,7 +10,6 @@ module.exports = {
     parser: "babel-eslint",
     env: {
         es6: true,
-        browser: true,
         "jest/globals": true,
     },
 
@@ -109,6 +108,7 @@ module.exports = {
                 ignoreRestSiblings: true,
             },
         ],
+        "no-use-before-define": "off",
         "no-use-before-define": [
             "warn",
             {
@@ -180,6 +180,6 @@ module.exports = {
             },
         ],
         "consistent-return": ["warn"],
-        complexity: ["warn", 6],
+        complexity: ["warn", 8],
     },
 };
