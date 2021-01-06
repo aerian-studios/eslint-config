@@ -1,21 +1,24 @@
 const restrictedGlobals = require("confusing-browser-globals");
 
 module.exports = {
-    extends: ["plugin:prettier/recommended"],
+    extends: [
+        "eslint:recommended",
+        "plugin:prettier/recommended",
+        "eslint-config-prettier",
+    ],
     plugins: ["jest", "import", "prettier"],
     parser: "babel-eslint",
     env: {
         es6: true,
-        browser: true,
-        "jest/globals": true
+        "jest/globals": true,
     },
 
     parserOptions: {
         sourceType: "module",
         ecmaVersion: 2019,
         ecmaFeatures: {
-            impliedStrict: true
-        }
+            impliedStrict: true,
+        },
     },
 
     rules: {
@@ -58,10 +61,10 @@ module.exports = {
                     ["&", "|", "^", "~", "<<", ">>", ">>>"],
                     ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
                     ["&&", "||"],
-                    ["in", "instanceof"]
+                    ["in", "instanceof"],
                 ],
-                allowSamePrecedence: false
-            }
+                allowSamePrecedence: false,
+            },
         ],
         "no-multi-str": "warn",
         "no-native-reassign": "warn",
@@ -94,24 +97,25 @@ module.exports = {
             {
                 allowShortCircuit: true,
                 allowTernary: true,
-                allowTaggedTemplates: true
-            }
+                allowTaggedTemplates: true,
+            },
         ],
         "no-unused-labels": "warn",
         "no-unused-vars": [
             "warn",
             {
                 args: "none",
-                ignoreRestSiblings: true
-            }
+                ignoreRestSiblings: true,
+            },
         ],
+        "no-use-before-define": "off",
         "no-use-before-define": [
             "warn",
             {
                 functions: true,
                 classes: true,
-                variables: true
-            }
+                variables: true,
+            },
         ],
         "no-useless-computed-key": "warn",
         "no-useless-concat": "warn",
@@ -122,8 +126,8 @@ module.exports = {
             {
                 ignoreDestructuring: false,
                 ignoreImport: false,
-                ignoreExport: false
-            }
+                ignoreExport: false,
+            },
         ],
         "no-with": "warn",
         "prefer-rest-params": "warn",
@@ -142,14 +146,14 @@ module.exports = {
                 object: "require",
                 property: "ensure",
                 message:
-                    "Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting"
+                    "Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting",
             },
             {
                 object: "System",
                 property: "import",
                 message:
-                    "Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting"
-            }
+                    "Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting",
+            },
         ],
         "getter-return": "warn",
 
@@ -165,17 +169,17 @@ module.exports = {
             "error",
             {
                 allowNamedFunctions: false,
-                allowUnboundThis: true
-            }
+                allowUnboundThis: true,
+            },
         ],
         "prefer-const": [
             "warn",
             {
                 destructuring: "all",
-                ignoreReadBeforeAssign: false
-            }
+                ignoreReadBeforeAssign: false,
+            },
         ],
         "consistent-return": ["warn"],
-        complexity: ["warn", 6]
-    }
+        complexity: ["warn", 8],
+    },
 };

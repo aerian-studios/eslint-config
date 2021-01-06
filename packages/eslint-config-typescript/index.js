@@ -1,46 +1,48 @@
 module.exports = {
-    extends: ["plugin:import/typescript"],
-    plugins: ["@typescript-eslint"],
-
+    extends: [
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "eslint-config-prettier",
+        "eslint-config-prettier/@typescript-eslint",
+    ],
+    plugins: ["@typescript-eslint/eslint-plugin"],
     overrides: [
         {
             files: ["**/*.ts", "**/*.tsx"],
             parser: "@typescript-eslint/parser",
             parserOptions: {
+                ecmaVersion: 2020,
                 project: "./tsconfig.json",
-                ecmaVersion: 2018,
-                sourceType: "module"
+                sourceType: "module",
+                ecmaFeatures: {
+                    jsx: true,
+                },
             },
             rules: {
+                //https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/FAQ.md#i-am-using-a-rule-from-eslint-core-and-it-doesnt-work-correctly-with-typescript-code
                 "default-case": "off",
                 "no-dupe-class-members": "off",
-                "no-undef": "off",
                 "no-magic-numbers": "off",
                 "@typescript-eslint/adjacent-overload-signatures": "error",
                 "@typescript-eslint/await-thenable": "warn",
-                camelcase: "off",
-                "@typescript-eslint/camelcase": [
-                    "warn",
-                    { properties: "never" }
-                ],
-                "@typescript-eslint/class-name-casing": "error",
                 "@typescript-eslint/explicit-member-accessibility": "warn",
                 indent: "off",
-                "@typescript-eslint/interface-name-prefix": "error",
+                complexity: ["warn", 8],
                 "@typescript-eslint/consistent-type-assertions": [
                     "error",
                     {
                         assertionStyle: "as",
-                        objectLiteralTypeAssertions: "allow-as-parameter"
-                    }
+                        objectLiteralTypeAssertions: "allow-as-parameter",
+                    },
                 ],
                 "no-array-constructor": "off",
                 "@typescript-eslint/no-array-constructor": "error",
                 "@typescript-eslint/no-empty-interface": [
                     "warn",
                     {
-                        allowSingleExtends: true
-                    }
+                        allowSingleExtends: true,
+                    },
                 ],
                 "@typescript-eslint/no-explicit-any": "warn",
                 "@typescript-eslint/no-inferrable-types": "warn",
@@ -54,15 +56,24 @@ module.exports = {
                         args: "none",
                         ignoreRestSiblings: true,
                         argsIgnorePattern: "^_",
-                        varsIgnorePattern: "^_"
-                    }
+                        varsIgnorePattern: "^_",
+                    },
                 ],
                 "import/no-commonjs": "off",
+                "no-use-before-define": "off",
+                "@typescript-eslint/no-use-before-define": [
+                    "warn",
+                    {
+                        functions: true,
+                        classes: true,
+                        variables: true,
+                    },
+                ],
                 "@typescript-eslint/no-var-requires": "error",
                 "@typescript-eslint/prefer-namespace-keyword": "error",
                 "@typescript-eslint/array-type": [
                     "warn",
-                    { default: "array-simple" }
+                    { default: "array-simple" },
                 ],
                 "no-useless-constructor": "off",
                 "@typescript-eslint/no-useless-constructor": "warn",
@@ -73,16 +84,17 @@ module.exports = {
                             Object: "Use {} instead, or type properly",
                             String: {
                                 message: "Use string instead",
-                                fixWith: "string"
+                                fixWith: "string",
                             },
                             Number: {
                                 message: "Use number instead",
-                                fixWith: "number"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    ]
+                                fixWith: "number",
+                            },
+                        },
+                    },
+                ],
+                "@typescript-eslint/prefer-regexp-exec": "warn",
+            },
+        },
+    ],
 };

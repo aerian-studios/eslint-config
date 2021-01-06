@@ -26,6 +26,9 @@ To use it, create the following .eslintrc.json:
 }
 ```
 
+also see config for mono-repos:
+https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/MONOREPO.md
+
 The base formatting uses Prettier, which parses and reformats your code. It runs
 this through ESLint, so you can run use `eslint . --fix` to apply Prettier
 formatting as well as ESLint rules.

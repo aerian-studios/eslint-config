@@ -1,11 +1,19 @@
 "use strict";
 
 module.exports = {
-    extends: "stylelint-config-standard",
+    extends: ["stylelint-config-recommended", "stylelint-config-css-modules"],
     rules: {
-        indentation: 4,
+        indentation: [
+            4,
+            {
+                except: ["value"],
+                severity: "warning",
+            },
+        ],
         "number-leading-zero": null,
         "max-nesting-depth": 3,
         "selector-max-compound-selectors": 2,
+        "value-keyword-case": null,
+        "declaration-colon-newline-after": null,
     },
 };

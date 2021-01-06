@@ -21,6 +21,14 @@ To use it, create the following .stylelintrc.json:
 }
 ```
 
+Also add this to your eslint config
+
+```json
+{
+    "extends": ["stylelint"]
+}
+```
+
 There are many rules that can be auto-fixed using `stylelint . --fix` either in
 the command line or in a package.json.
 
