@@ -61,7 +61,7 @@ module.exports = {
                 ],
                 "import/no-commonjs": "off",
                 "no-use-before-define": "off",
-                "no-use-before-define": [
+                "@typescript-eslint/no-use-before-define": [
                     "warn",
                     {
                         functions: true,
