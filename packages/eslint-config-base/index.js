@@ -4,6 +4,8 @@ module.exports = {
     extends: [
         "eslint:recommended",
         "plugin:prettier/recommended",
+        "prettier",
+        "prettier/prettier",
         "eslint-config-prettier",
     ],
     plugins: ["jest", "import", "prettier"],

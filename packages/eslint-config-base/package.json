@@ -7,15 +7,14 @@
     "dependencies": {
         "babel-eslint": "^10.1.0",
         "confusing-browser-globals": "^1.0.10",
-        "eslint": "^8.0.1",
+        "eslint": "^8.3.0",
         "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-import": "^2.25.2",
-        "eslint-plugin-jest": "^25.2.2",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jest": "^25.3.0",
         "eslint-plugin-prettier": "^4.0.0",
-        "prettier": "^2.4.1"
+        "prettier": "^2.5.0"
     },
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "peerDependencies": {
         "eslint": "*",
         "prettier": "*"
