@@ -55,9 +55,25 @@ To use the packages, create an .eslintrc.json like this:
 }
 ```
 
-The base formatting uses Prettier, which parses and reformats your code. It runs
-this through ESLint, so you can run use `eslint . --fix` to apply Prettier
-formatting as well as ESLint rules.
+The base formatting uses Prettier **through eslint**, which parses and reformats
+your code, so you can run use `eslint . --fix` to apply Prettier formatting as
+well as ESLint rules.
+
+Within your editor you will need to apply some format on save settings,
+something like these for vscode:
+
+```json
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+}
+```
+
+Which enables eslint to fix all on save and as the default formatter.
 
 ### Transpiled (Typescript/Babel) node scripts
 
@@ -87,7 +103,7 @@ prefix all the lerna commands.
 1. Check out master
 1. Make sure that you are logged in to npm.
 1. Then run, `lerna publish`. This will take you through a wizard for managing
-   the realease to npm.
+   the release to npm.
 
 Versioning should follow semver, but make sure that **new rules** are treated as
 a major version change, as they're breaking changes for existing projects.
