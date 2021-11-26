@@ -1,19 +1,24 @@
 module.exports = {
     extends: [
+        "prettier/typescript-eslint",
+        "eslint-config-prettier",
+        "eslint-config-prettier/@typescript-eslint",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "eslint-config-prettier",
-        "eslint-config-prettier/@typescript-eslint",
     ],
-    plugins: ["@typescript-eslint/eslint-plugin"],
+    plugins: ["@typescript-eslint"],
+    settings: {
+        "import/resolver": {
+            typescript: {},
+        },
+    },
     overrides: [
         {
             files: ["**/*.ts", "**/*.tsx"],
             parser: "@typescript-eslint/parser",
             parserOptions: {
-                ecmaVersion: 2020,
-                project: "./tsconfig.json",
+                ecmaVersion: 12,
                 sourceType: "module",
                 ecmaFeatures: {
                     jsx: true,
