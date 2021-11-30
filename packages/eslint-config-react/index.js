@@ -1,13 +1,19 @@
 module.exports = {
+    env: {
+        browser: true,
+        es2021: true,
+    },
     extends: [
+        "@aerian/eslint-config",
         "plugin:import/react",
         "plugin:react/recommended",
         "plugin:jsx-a11y/recommended",
-        "@aerian/eslint-config",
         "prettier/react",
     ],
-    plugins: ["react-hooks", "jsx-a11y"],
+    plugins: ["react", "react-hooks", "jsx-a11y"],
     parserOptions: {
+        ecmaVersion: 12,
+        sourceType: "module",
         ecmaFeatures: {
             jsx: true,
         },
