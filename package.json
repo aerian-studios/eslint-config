@@ -2,6 +2,14 @@
     "name": "root",
     "license": "MIT",
     "private": true,
+    "workspaces": [
+        "packages/eslint-config-base",
+        "packages/eslint-config-node",
+        "packages/eslint-config-preact",
+        "packages/eslint-config-react",
+        "packages/eslint-config-typescript",
+        "packages/stylelint-config-base"
+    ],
     "devDependencies": {
         "eslint": "^8.3.0",
         "lerna": "^4.0.0",
