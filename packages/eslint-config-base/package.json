@@ -1,6 +1,6 @@
 {
     "name": "@aerian/eslint-config",
-    "version": "11.0.1",
+    "version": "12.0.0",
     "main": "index.js",
     "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
@@ -14,7 +14,6 @@
         "eslint-plugin-prettier": "^4.0.0",
         "prettier": "^2.5.0"
     },
-    "devDependencies": {},
     "peerDependencies": {
         "eslint": "*",
         "prettier": "*"
