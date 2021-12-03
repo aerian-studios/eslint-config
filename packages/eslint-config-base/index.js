@@ -1,23 +1,16 @@
 const restrictedGlobals = require("confusing-browser-globals");
 
 module.exports = {
-    extends: [
-        "eslint:recommended",
-        "plugin:prettier/recommended",
-        "prettier",
-        "prettier/prettier",
-        "eslint-config-prettier",
-    ],
+    extends: ["eslint:recommended", "plugin:prettier/recommended"],
     plugins: ["jest", "import", "prettier"],
     parser: "babel-eslint",
     env: {
         es6: true,
-        "jest/globals": true,
     },
 
     parserOptions: {
         sourceType: "module",
-        ecmaVersion: 2019,
+        ecmaVersion: 2020,
         ecmaFeatures: {
             impliedStrict: true,
         },

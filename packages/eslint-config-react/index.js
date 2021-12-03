@@ -8,11 +8,11 @@ module.exports = {
         "plugin:import/react",
         "plugin:react/recommended",
         "plugin:jsx-a11y/recommended",
-        "prettier/react",
+        "prettier",
     ],
     plugins: ["react", "react-hooks", "jsx-a11y"],
     parserOptions: {
-        ecmaVersion: 12,
+        ecmaVersion: 2021,
         sourceType: "module",
         ecmaFeatures: {
             jsx: true,
