@@ -1,11 +1,11 @@
 {
     "name": "@aerian/eslint-config-preact",
-    "version": "12.0.2",
+    "version": "12.0.3",
     "main": "index.js",
     "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
     "dependencies": {
-        "@aerian/eslint-config-react": "^12.0.2"
+        "@aerian/eslint-config-react": "^12.0.3"
     },
     "publishConfig": {
         "access": "public"
