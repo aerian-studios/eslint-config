@@ -4,7 +4,6 @@ module.exports = {
         es2021: true,
     },
     extends: [
-        "@aerian/eslint-config",
         "plugin:import/react",
         "plugin:react/recommended",
         "plugin:jsx-a11y/recommended",

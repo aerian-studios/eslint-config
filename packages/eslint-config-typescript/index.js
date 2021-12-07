@@ -1,7 +1,7 @@
 module.exports = {
     // root: true,
     parser: "@typescript-eslint/parser",
-    extends: ["@aerian/eslint-config", "plugin:@typescript-eslint/recommended"],
+    extends: ["plugin:@typescript-eslint/recommended"],
     plugins: ["prettier", "@typescript-eslint"],
     overrides: [
         {
