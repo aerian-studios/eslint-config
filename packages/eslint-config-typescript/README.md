@@ -1,6 +1,6 @@
 # @aerian/eslint-config-typescript
 
-This is a sharable ESLint config for TypeScript.
+This is a sharable ESLint config for TypeScript. The base config is NO LONGER included by default, so you will need to include it in most cases
 
 This isn't meant to be used on its own. If you're using plain TypeScript add
 `@aerian/eslint-config`. Alternatively, if you're using React, use

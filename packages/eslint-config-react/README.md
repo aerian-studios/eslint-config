@@ -1,6 +1,6 @@
 # @aerian/eslint-config-react
 
-This is a sharable ESLint config for React. If you're using TypeScript, add
+This is a sharable ESLint config for React. The base config is NO LONGER included by default so you will likely need to include it yourself. If you're using TypeScript, add
 `@aerian/eslint-config-typescript` too.
 
 If you're not using React, try `@aerian/eslint-config` instead. If you're using
@@ -10,17 +10,17 @@ To install, run:
 
 ```sh
 #npm
-npm i -D eslint prettier @aerian/eslint-config-react
+npm i -D eslint prettier @aerian/eslint-config @aerian/eslint-config-react
 
 #yarn
-yarn add -D  eslint prettier @aerian/eslint-config-react
+yarn add -D  eslint prettier @aerian/eslint-config @aerian/eslint-config-react
 ```
 
 To use it, create the following .eslintrc.json:
 
 ```json
 {
-    "extends": ["@aerian/eslint-config-react"]
+    "extends": ["@aerian/eslint-config", "@aerian/eslint-config-react"]
 }
 ```
 
@@ -29,6 +29,7 @@ To use it, create the following .eslintrc.json:
 ```json
 {
     "extends": [
+        "@aerian/eslint-config",
         "@aerian/eslint-config-react",
         "@aerian/eslint-config-typescript"
     ]
