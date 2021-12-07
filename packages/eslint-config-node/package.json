@@ -1,6 +1,6 @@
 {
     "name": "@aerian/eslint-config-node",
-    "version": "12.0.3",
+    "version": "13.0.0",
     "description": "Aerian Studios' opinionated node formatting and best practices",
     "main": "index.js",
     "repository": {
@@ -15,7 +15,7 @@
     "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
     "dependencies": {
-        "@aerian/eslint-config": "^12.0.3",
+        "@aerian/eslint-config": "^13.0.0",
         "eslint-plugin-node": "^11.1.0"
     },
     "peerDependencies": {
