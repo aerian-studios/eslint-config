@@ -12,8 +12,8 @@
     },
     "dependencies": {
         "@aerian/eslint-config": "^13.0.0",
-        "@typescript-eslint/eslint-plugin": "^5.5.0",
-        "@typescript-eslint/parser": "^5.5.0",
+        "@typescript-eslint/eslint-plugin": "^5.7.0",
+        "@typescript-eslint/parser": "^5.7.0",
         "eslint-import-resolver-typescript": "^2.5.0",
         "eslint-plugin-import": "^2.25.3",
         "prettier": "^2.5.0",
@@ -23,9 +23,6 @@
         "eslint": "*",
         "prettier": "*",
         "typescript": "*"
-    },
-    "devDependencies": {
-        "typescript": "^4.5.2"
     },
     "gitHead": "2f8f3a6efe24be0c99bd529f6778a4c223fc4d8b"
 }
