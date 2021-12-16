@@ -22,6 +22,7 @@ module.exports = {
                 "no-dupe-class-members": "off",
                 "no-magic-numbers": "off",
                 "@typescript-eslint/adjacent-overload-signatures": "error",
+                "@typescript-eslint/await-thenable": "warn",
                 "@typescript-eslint/explicit-member-accessibility": "warn",
                 indent: "off",
                 complexity: ["warn", 8],
@@ -40,6 +41,7 @@ module.exports = {
                         allowSingleExtends: true,
                     },
                 ],
+                "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-inferrable-types": "warn",
                 "@typescript-eslint/no-misused-new": "error",
                 "@typescript-eslint/no-namespace": "error",
@@ -72,22 +74,6 @@ module.exports = {
                 ],
                 "no-useless-constructor": "off",
                 "@typescript-eslint/no-useless-constructor": "warn",
-                "@typescript-eslint/ban-types": [
-                    "error",
-                    {
-                        types: {
-                            Object: "Use {} instead, or type properly",
-                            String: {
-                                message: "Use string instead",
-                                fixWith: "string",
-                            },
-                            Number: {
-                                message: "Use number instead",
-                                fixWith: "number",
-                            },
-                        },
-                    },
-                ],
                 "@typescript-eslint/prefer-regexp-exec": "warn",
             },
         },
