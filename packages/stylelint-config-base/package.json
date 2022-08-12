@@ -1,6 +1,6 @@
 {
     "name": "@aerian/stylelint-config-base",
-    "version": "13.0.1",
+    "version": "13.1.4",
     "description": "Aerian's CSS config",
     "main": "index.js",
     "repository": "\"https://github.com/aerian-studios/eslint-config\"",
