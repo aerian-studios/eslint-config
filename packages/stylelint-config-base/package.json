@@ -1,6 +1,6 @@
 {
     "name": "@aerian/stylelint-config-base",
-    "version": "13.0.0",
+    "version": "13.0.1",
     "description": "Aerian's CSS config",
     "main": "index.js",
     "repository": "\"https://github.com/aerian-studios/eslint-config\"",
@@ -10,9 +10,9 @@
         "access": "public"
     },
     "dependencies": {
-        "eslint-config-stylelint": "^15.0.0",
-        "stylelint": "^14.1.0",
-        "stylelint-config-css-modules": "2.3.0",
-        "stylelint-config-recommended": "^6.0.0"
+        "eslint-config-stylelint": "^15.1.0",
+        "stylelint": "^14.10.0",
+        "stylelint-config-css-modules": "4.1.0",
+        "stylelint-config-recommended": "^9.0.0"
     }
 }

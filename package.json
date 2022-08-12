@@ -11,8 +11,8 @@
         "packages/stylelint-config-base"
     ],
     "devDependencies": {
-        "eslint": "^8.3.0",
+        "eslint": "^8.21.0",
         "lerna": "^4.0.0",
-        "prettier": "^2.5.0"
+        "prettier": "^2.7.1"
     }
 }

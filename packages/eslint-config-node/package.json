@@ -1,6 +1,6 @@
 {
     "name": "@aerian/eslint-config-node",
-    "version": "13.0.0",
+    "version": "13.0.1",
     "description": "Aerian Studios' opinionated node formatting and best practices",
     "main": "index.js",
     "repository": {
