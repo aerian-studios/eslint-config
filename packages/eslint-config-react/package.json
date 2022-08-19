@@ -1,11 +1,11 @@
 {
     "name": "@aerian/eslint-config-react",
-    "version": "13.1.4",
+    "version": "13.2.0",
     "main": "index.js",
     "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
     "dependencies": {
-        "@aerian/eslint-config": "^13.0.0",
+        "@aerian/eslint-config": "^13.2.0",
         "eslint-plugin-jsx-a11y": "^6.6.1",
         "eslint-plugin-react": "^7.30.1",
         "eslint-plugin-react-hooks": "^4.6.0"
