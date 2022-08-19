@@ -1,14 +1,14 @@
 {
     "name": "@aerian/eslint-config-react",
-    "version": "13.0.0",
+    "version": "13.1.4",
     "main": "index.js",
     "author": "Śūnya<info@aerian.com>",
     "license": "MIT",
     "dependencies": {
         "@aerian/eslint-config": "^13.0.0",
-        "eslint-plugin-jsx-a11y": "^6.5.1",
-        "eslint-plugin-react": "^7.27.1",
-        "eslint-plugin-react-hooks": "^4.3.0"
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0"
     },
     "peerDependencies": {
         "eslint": "*",
